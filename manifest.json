@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "otaVersion": 1,
   "title": "轻跃官方云端规则与版本通道",
-  "latestAppVersionCode": 9,
-  "latestAppVersionName": "1.1.7",
-  "tagName": "v1.1.7-b9",
+  "latestAppVersionCode": 11,
+  "latestAppVersionName": "1.1.9",
+  "tagName": "v1.1.9-b11",
   "changelog": "新增支持国内镜像加速的 GitHub Releases 自动版本检测与规则热更新通道；后续可在私有仓库编辑本文件或推送新版本自动下发。",
-  "apkFileName": "qingyue-v1.1.7-b9.apk",
-  "apkDownloadUrl": "https://github.com/Reciu7880/Superqingyue-Releases/releases/download/v1.1.7-b9/qingyue-v1.1.7-b9.apk",
-  "publishedAt": "2026-11-25T08:30:15Z",
+  "apkFileName": "qingyue-v1.1.9-b11.apk",
+  "apkDownloadUrl": "https://github.com/Reciu7880/Superqingyue-Releases/releases/download/v1.1.9-b11/qingyue-v1.1.9-b11.apk",
+  "publishedAt": "2026-11-26T11:58:02Z",
   "ruleEntries": []
 }
