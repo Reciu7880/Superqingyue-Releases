@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "otaVersion": 1,
-  "title": "轻跃官方云端规则与版本通道",
-  "latestAppVersionCode": 15,
-  "latestAppVersionName": "1.1.13",
-  "tagName": "v1.1.13-b15",
-  "changelog": "新增支持国内镜像加速的 GitHub Releases 自动版本检测与规则热更新通道；后续可在私有仓库编辑本文件或推送新版本自动下发。",
-  "apkFileName": "qingyue-v1.1.13-b15.apk",
-  "apkDownloadUrl": "https://github.com/Reciu7880/Superqingyue-Releases/releases/download/v1.1.13-b15/qingyue-v1.1.13-b15.apk",
-  "publishedAt": "2026-11-27T13:05:04Z",
+  "otaVersion": 2,
+  "title": "v1.1.14（Build 16）— 专项修复 B 站竖屏流广告与暂停弹窗广告拦截 + 自动同步 Release 更新说明",
+  "latestAppVersionCode": 16,
+  "latestAppVersionName": "1.1.14",
+  "tagName": "v1.1.14-b16",
+  "changelog": "- **B 站竖屏短视频流广告自动上滑专项加强**：\n  - **新增顶部应用推广合规栏识别**：针对顶部带有「开发者 + 版本号 / 隐私协议 / 权限」信息条的应用下载类推广视频，直接识别并自动上滑跳过。\n  - **新增悬浮商业转化按钮与跳转卡片识别**：针对无「广告」角标但带有「立即领取 / 立即购买 / 立即下载 / 免费试听」悬浮胶囊按钮或「跳转拼多多 / 跳转淘宝 / 点我>> / 戳我专属链接」推广框的竖屏带货/课程广告，精准触发自动上滑划走，并修复「立即购买」误触购物防误划过滤的问题。\n  - **完善 B 站竖屏流布局判定**：补充右侧点赞/评论/投币/收藏/分享纯数字互动列及顶部「人正在看」+ 底部「发弹幕 / 关注7天可发」竖屏特征，确保稳定命中且不误划横屏视频。\n- **B 站视频暂停广告双阶段拦截**：\n  - **阶段一（弹出前抢先取消）**：自动识别播放器左下角「3/2/1秒后将展示广告 | 取消」倒计时条（同时兼容独立按钮与单控件富文本），在广告弹窗弹出前直接点击「取消」。\n  - **阶段二（已弹出 70% 大底栏精准关闭）**：将暂停广告容器高度上限放宽至 84% 屏高（向上追溯 8 层、扫描 160 节点），优先匹配底部弹窗顶栏右上角「✕」关闭图标（避开内嵌网页左侧小「×」与「⋮」更多按钮），同时支持无文字/混淆 ID 场景下通过「广告 + 详情介绍/立即下载」与顶栏「⋮ + ✕」成对特征精准关闭。\n- **每次 Release 自动写入完整更新内容**：升级发版工作流，自动同步 `README.md` 当期版本日志与 `ota_rules.json`，确保 GitHub Release 与应用内更新页每次都展示最新完整更新说明。",
+  "apkFileName": "qingyue-v1.1.14-b16.apk",
+  "apkDownloadUrl": "https://github.com/Reciu7880/Superqingyue-Releases/releases/download/v1.1.14-b16/qingyue-v1.1.14-b16.apk",
+  "publishedAt": "2026-11-28T10:41:41Z",
   "ruleEntries": []
 }
